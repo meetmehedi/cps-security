@@ -1,0 +1,19 @@
+# Datasets
+*.csv
+*.parquet
+*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Workspace / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Large binaries
+results/*.png
