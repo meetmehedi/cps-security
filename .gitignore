@@ -16,4 +16,4 @@ venv/
 .idea/
 
 # Large binaries
-results/*.png
+# results/*.png (Removed to allow paper figures)
