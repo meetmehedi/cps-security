@@ -18,12 +18,14 @@ The project implements a **Federated Learning (FL)** framework to robustly detec
 ## Results
 Detailed performance metrics, confusion matrices, and ROC-AUC curves are available in the `results/` directory.
 
-### Summary Metrics
-| Dataset | Accuracy | F1-Score |
-| :--- | :--- | :--- |
-| **FDI (118-Bus)** | 99.87% | 99.87% |
-| **TON_IoT** | 99.52% | 99.52% |
-| **UNSW-NB15** | 99.33% | 99.33% |
+### Comprehensive Performance Metrics
+| Dataset | Accuracy | Precision | Recall | F1-Score |
+| :--- | :--- | :--- | :--- | :--- |
+| **TON_IoT** | 99.52% | 99.50% | 99.52% | 99.51% |
+| **UNSW-NB15**| 99.33% | 99.32% | 99.33% | 99.30% |
+| **CIC IDS 17**| 98.14% | 98.10% | 98.14% | 97.72% |
+| **CIC IDS 18**| 99.61% | 99.60% | 99.61% | 99.54% |
+| **FDI 118-Bus**| 99.87% | 99.87% | 99.87% | 99.87% |
 
 ## How to Run
 1.  Ensure you have the required datasets in the root directory (see `.gitignore`).
